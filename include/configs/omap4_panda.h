@@ -80,6 +80,9 @@
 /* ENV related config options */
 #define CONFIG_ENV_IS_NOWHERE
 
+/* Disable the L2 cache (not supported by base-hw yet) */
+#define CONFIG_SYS_L2CACHE_OFF 1
+
 #define CONFIG_SYS_PROMPT		"Panda # "
 
 #endif /* __CONFIG_PANDA_H */
